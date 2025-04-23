@@ -1,0 +1,11 @@
+add needed attributes
+style <header>
+style <aside>
+style .2-bar <div>
+
+
+==========================================
+***************D O N E********************
+==========================================
+
+code HTML semantics
