@@ -1,5 +1,3 @@
-explore whether to use flexbox or <br> to space and break for layout
-style <header>
 style <aside>
 style .2-bar & .1-bar <div>
 
@@ -11,3 +9,7 @@ style .2-bar & .1-bar <div>
 code HTML semantics
 
 add needed attributes
+
+explore whether to use flexbox or <br> to space and break for layout
+
+style <header>
