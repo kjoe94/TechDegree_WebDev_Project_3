@@ -1,4 +1,10 @@
 style "Contact Info" section
+    - shift placeholers "required" to the right
+    - add "focus" with blue outline
+    - add a "select" dropdown for the "state" label
+    - shorten width of "zip code"
+    - add margin-bottom after last text box
+    
 style "Newsletter" section
 style button
 style footer
