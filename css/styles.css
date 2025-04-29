@@ -116,6 +116,23 @@ label + input {
     margin-bottom: 0.5rem;
 }
 
+input::placeholder {
+    text-align: right;
+    font-style: italic; 
+    margin-right: 1rem; 
+    opacity: 0.5; 
+}
+
+input[placeholder="Choose State"]::placeholder {
+    text-align: justify;
+    font-style: normal;
+    padding-left: 1rem;
+    
+}
+
+input:focus {
+    outline: solid rgb(35, 107, 131);
+}
 
 
 /* ================================= 
