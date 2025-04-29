@@ -1,9 +1,15 @@
 style "Contact Info" section
-    - add "focus" with blue outline
     - add a "select" dropdown for the "state" label
+        - background match
+        - box size match
+        - lower opacity of text
+        - resarch the double arrow and add
+        - padding for "Choose State"
     - shorten width of "zip code"
     - add margin-bottom after last text box
     - match font (change to required font for project)
+    - add margin-left for input text
+    - style checkboxes/radio-buttons to match mockup
     
 style "Newsletter" section
 style button
@@ -33,3 +39,4 @@ style .2-bar & .1-bar <div>
 
 style "Contact Info" section
     - shift placeholers "required" to the right
+    - add "focus" with blue outline

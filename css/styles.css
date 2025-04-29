@@ -101,7 +101,7 @@ label {
 }
 input[type="text"] {
     min-height: 3rem;
-    border-radius: 5px;
+    border-radius: 3px;
 
 }
 
@@ -130,8 +130,10 @@ input[placeholder="Choose State"]::placeholder {
     
 }
 
-input:focus {
-    outline: solid rgb(35, 107, 131);
+input:focus,
+textarea:focus,
+button:focus {
+        outline: solid rgb(35, 107, 131);
 }
 
 
