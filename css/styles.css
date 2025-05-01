@@ -99,19 +99,15 @@ label {
     color: rgb(119, 118, 118);
     font-weight: 500;
 }
-input[type="text"] {
+input[type="text"],
+select {
     min-height: 3rem;
     border-radius: 3px;
 
 }
 
-input[type="text"],
-textarea {
-    background-color: rgb(234, 233, 233);
-    border: none;
-}
-
-label + input {
+label + input,
+select {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
@@ -121,7 +117,9 @@ input::placeholder {
     font-style: italic; 
     margin-right: 1rem; 
     opacity: 0.5; 
+
 }
+
 
 input[placeholder="Choose State"]::placeholder {
     text-align: justify;
@@ -132,10 +130,17 @@ input[placeholder="Choose State"]::placeholder {
 
 input:focus,
 textarea:focus,
-button:focus {
+button:focus,
+select:focus {
         outline: solid rgb(35, 107, 131);
 }
 
+select,
+input[type="text"],
+textarea {
+    background-color: rgb(234, 233, 233);
+    border: none;
+}
 
 /* ================================= 
   Media Queries

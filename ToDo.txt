@@ -1,7 +1,5 @@
 style "Contact Info" section
     - add a "select" dropdown for the "state" label
-        - background match
-        - box size match
         - lower opacity of text
         - resarch the double arrow and add
         - padding for "Choose State"
@@ -40,3 +38,7 @@ style .2-bar & .1-bar <div>
 style "Contact Info" section
     - shift placeholers "required" to the right
     - add "focus" with blue outline
+    - add a "select" dropdown for the "state" label
+        - background match
+        - box size match
+        - fix focus (it stays on)
