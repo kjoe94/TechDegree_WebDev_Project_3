@@ -78,6 +78,11 @@ aside p {
     height: 1.5px;
 }
 
+.single,
+#zip {
+    margin-bottom: 1.5rem;
+}
+
 /* ================================= 
   Form Styles
 ==================================== */
@@ -94,6 +99,8 @@ legend {
     font-weight: bold;
     margin-bottom: 1rem;
 }
+
+
 
 label {
     color: rgb(119, 118, 118);
@@ -117,6 +124,7 @@ input::placeholder {
     font-style: italic; 
     margin-right: 1rem; 
     opacity: 0.5; 
+    font-size: 0.8rem;
 
 }
 
@@ -141,6 +149,22 @@ textarea {
     background-color: rgb(234, 233, 233);
     border: none;
 }
+
+select {
+    padding-left: 1rem;
+    color: #b9b9b9;
+}
+
+#zip {
+    width: 50%;
+}
+
+input[type="text"] {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.3rem;
+}
+
 
 /* ================================= 
   Media Queries

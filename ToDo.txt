@@ -1,15 +1,10 @@
 style "Contact Info" section
-    - add a "select" dropdown for the "state" label
-        - lower opacity of text
-        - resarch the double arrow and add
-        - padding for "Choose State"
-    - shorten width of "zip code"
-    - add margin-bottom after last text box
     - match font (change to required font for project)
-    - add margin-left for input text
     - style checkboxes/radio-buttons to match mockup
+    - change "state" list back to black
     
 style "Newsletter" section
+    - put <br> to space out
 style button
 style footer
 
@@ -42,3 +37,10 @@ style "Contact Info" section
         - background match
         - box size match
         - fix focus (it stays on)
+        - lower opacity of text (cannot accomplish with HTML & CSS alone)
+            ***accomplished by selecting "select" and styling
+        - resarch the double arrow and add (***the browser determines this feature)
+        - padding for "Choose State"
+        - shorten width of "zip code"
+    - add margin-bottom after last text box
+    - add margin-left & right for input text
