@@ -1,12 +1,8 @@
-style "Contact Info" section
-    - match font (change to required font for project)
-    - style checkboxes/radio-buttons to match mockup
-    - change "state" list back to black
-    
+Match font-size of all content
 style "Newsletter" section
     - put <br> to space out
-style button
 style footer
+DRY: check and correct
 
 check-off "meets expectations"
 -
@@ -44,3 +40,8 @@ style "Contact Info" section
         - shorten width of "zip code"
     - add margin-bottom after last text box
     - add margin-left & right for input text
+    - match font (change to required font for project)
+    - style checkboxes/radio-buttons to match mockup (***browser specific. would have to create one)
+    - change "state" list back to black
+style button
+
