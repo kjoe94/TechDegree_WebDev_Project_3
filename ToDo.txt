@@ -1,4 +1,3 @@
-Match font-size of all content
 style "Newsletter" section
     - put <br> to space out
 style footer
@@ -44,4 +43,5 @@ style "Contact Info" section
     - style checkboxes/radio-buttons to match mockup (***browser specific. would have to create one)
     - change "state" list back to black
 style button
+Match font-size of all content
 

@@ -30,9 +30,9 @@ h2 {
     margin-bottom: 0;
 }
 
-h2,
-legend {
-    font-size: 1.3rem;
+legend,
+h2 {
+    font-size: 1.2rem;
 }
 
 aside {
@@ -45,6 +45,14 @@ aside {
     margin: 0 auto;
 }
 
+aside p,
+#state,
+footer p,
+.wrapper label,
+.newletter-sect {
+    font-size: 0.9rem;
+}
+
 /* ================================= 
   Base Layout Styles
 ==================================== */
@@ -53,6 +61,9 @@ aside p {
     color: rgb(161, 160, 160);
     margin-top: 0.5rem;
 }
+
+
+
 
 
 /* ---- Layout Containers ---- */
@@ -111,7 +122,11 @@ legend {
     margin-bottom: 1rem;
 }
 
+footer p {
+    font-style: italic;
+    color: rgb(165, 163, 163);
 
+}
 
 label {
     color: rgb(119, 118, 118);
@@ -189,6 +204,11 @@ button {
     font-family: "Merriweather", serif;
     font-weight: bold;
     width: 100%;
+}
+
+#state {
+    font-weight: 600;
+    font-family: "Merriweather", serif;
 }
 
 
