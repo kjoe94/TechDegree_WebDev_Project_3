@@ -1,5 +1,7 @@
+increase margin/line-height of <label> elements
+    - figure out why cannot put margin atop and bottom of "Newletter" labels
 style "Newsletter" section
-    - put <br> to space out
+    - space out with margin-top/bottom
 style footer
 DRY: check and correct
 
