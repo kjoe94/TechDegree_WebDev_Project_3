@@ -103,7 +103,7 @@
                 </div>
             </fieldset>
             <div class="one-bar single"></div>
-            <fieldset class="newletter-sect">
+            <fieldset class="newsletter-sect">
                 <legend>Newsletter</legend> 
 
                 <label>Select the newsletters you would like to receive</label><br>
@@ -117,7 +117,7 @@
                 <input type="checkbox" name="javascript" id="javascript">
                 <label for="javascript">Javascript News </label><br>
 
-                <label>Newsletter format</label><br>
+                <label id="format">Newsletter format</label><br>
 
                 <input type="radio" name="newletter-format" id="html">
                 <label for="html">HTML</label><br>
@@ -125,8 +125,8 @@
                 <input type="radio" name="newletter-format" id="plain">
                 <label for="plain">Plain text</label><br>
 
-                <label for="topics">Other topics you'd like to hear about</label> <br>
-                <textarea name="other-topics" id="topics"></textarea>
+                <label id="other-topics" for="topics">Other topics you'd like to hear about</label> <br>
+                <textarea class="textbox" name="other-topics" id="topics"></textarea>
 
 
 
@@ -141,6 +141,7 @@
     </main>
     <footer>
         <p>Copyright The Code Review</p>
+        <div class="empty"></div>
     </footer>
 
 </body>

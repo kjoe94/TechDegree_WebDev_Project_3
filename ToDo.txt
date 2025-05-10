@@ -1,8 +1,3 @@
-increase margin/line-height of <label> elements
-    - figure out why cannot put margin atop and bottom of "Newletter" labels
-style "Newsletter" section
-    - space out with margin-top/bottom
-style footer
 DRY: check and correct
 
 check-off "meets expectations"
@@ -46,4 +41,9 @@ style "Contact Info" section
     - change "state" list back to black
 style button
 Match font-size of all content
-
+style footer
+increase margin/line-height of <label> elements
+    - figure out why cannot put margin atop and bottom of "Newletter" labels 
+    />***the <label> element is an inline element. Changed to "inline-block"
+style "Newsletter" section
+- space out with margin-top/bottom
