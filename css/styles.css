@@ -6,23 +6,46 @@
   Base Element Styles
 ==================================== */
 
-body {
-    margin: 0;
+body,
+button,
+#state {
     font-family: "Merriweather", serif;
+}
+
+body,
+.contact,
+fieldset {
+    margin: 0;
+    
 }
 
 header {
     background-color: rgb(44, 61, 78);
-    color: white;
-    text-align: center;
     text-transform: uppercase;
     height: 4.5rem;
-    display: flex;
     align-items: center;
     justify-content: center;
 }
 
-h1 {
+header,
+.wrapper {
+    display: flex;
+}
+
+header,
+button  {
+    color: white;
+}
+
+header,
+aside,
+footer p  {
+    text-align: center;
+
+}
+
+h1,
+button {
     font-size: 1.1rem;
 }
 
@@ -33,10 +56,6 @@ h2 {
 legend,
 h2 {
     font-size: 1.2rem;
-}
-
-aside {
-    text-align: center;
 }
 
 main,
@@ -59,8 +78,18 @@ footer p,
 
 aside p {
     color: rgb(161, 160, 160);
-    margin-top: 0.5rem;
+}
+
+aside p,
+fieldset > label {
     margin-bottom: 2rem;
+}
+
+aside p,
+label + input,
+select,
+fieldset > label {
+    margin-top: 0.5rem;
 }
 
 .wrapper label {
@@ -74,13 +103,13 @@ aside p {
 
 /* ---- Layout Containers ---- */
 
-.contact {
-    margin: 0;
+.contact,
+fieldset,
+legend {
     padding: 0;
 }
 
 .wrapper {
-    display: flex;
     flex-wrap: wrap;
     flex-direction: column;
 }
@@ -90,18 +119,22 @@ aside p {
 /* ---- Page Elements ---- */
 
 .two-bar {
-    background-color: black;
     height: 5px;
     margin-bottom: 2.5px;
 }
 
+.two-bar,
 .one-bar {
     background-color: black;
+}
+
+.one-bar {
     height: 2px;
 }
 
 .single,
-#zip {
+#zip,
+.textbox {
     margin-bottom: 1.5rem;
 }
 
@@ -119,25 +152,25 @@ h2 {
 }
 
 fieldset,
-button {
+button,
+select,
+input[type="text"],
+textarea {
     border: none;
 }
 
-fieldset {
-    padding: 0;
-    margin: 0;
-}
-
-legend {
-    padding: 0;
+legend,
+button {
     font-weight: bold;
-    margin-bottom: 0.5rem;
 }
 
 footer p {
-    font-style: italic;
     color: rgb(165, 163, 163);
-    text-align: center;
+}
+
+footer p,
+input::placeholder {
+    font-style: italic;
 }
 
 label {
@@ -153,8 +186,8 @@ select,
 }
 
 label + input,
-select {
-    margin-top: 0.5rem;
+select,
+legend {
     margin-bottom: 0.5rem;
 }
 
@@ -162,7 +195,6 @@ select {
 
 input::placeholder {
     text-align: right;
-    font-style: italic; 
     margin-right: 1rem; 
     opacity: 0.5; 
     font-size: 0.8rem;
@@ -173,8 +205,13 @@ input::placeholder {
 input[placeholder="Choose State"]::placeholder {
     text-align: justify;
     font-style: normal;
-    padding-left: 1rem;
     
+}
+
+input[placeholder="Choose State"]::placeholder,
+select,
+input[type="text"] {
+    padding-left: 1rem;
 }
 
 input:focus,
@@ -188,11 +225,9 @@ select,
 input[type="text"],
 textarea {
     background-color: rgb(234, 233, 233);
-    border: none;
 }
 
 select {
-    padding-left: 1rem;
     color: #b9b9b9;
 }
 
@@ -201,7 +236,6 @@ select {
 }
 
 input[type="text"] {
-    padding-left: 1rem;
     padding-right: 1rem;
     font-size: 1.3rem;
 }
@@ -214,22 +248,17 @@ button {
     background-color: rgb(101, 202, 185);
     min-height: 3.5rem;
     border-radius: 5px;
-    color: white;
-    font-size: 1.1rem;
-    font-family: "Merriweather", serif;
-    font-weight: bold;
+}
+
+button,
+.textbox {
     width: 100%;
 }
 
 #state {
     font-weight: 600;
-    font-family: "Merriweather", serif;
 }
 
-fieldset > label {
-    margin-top: 0.5rem;
-    margin-bottom: 2rem;
-}
 
 .newsletter-sect label {
     display: inline-block;
@@ -248,8 +277,6 @@ fieldset > label {
 
 .textbox {
     min-height: 6rem;
-    width: 100%; 
-    margin-bottom: 1.5rem;
     resize: none;
 }
 
