@@ -1,5 +1,3 @@
-DRY: check and correct
-
 check-off "meets expectations"
 -
 check-off "exceeds"
@@ -47,3 +45,4 @@ increase margin/line-height of <label> elements
     />***the <label> element is an inline element. Changed to "inline-block"
 style "Newsletter" section
 - space out with margin-top/bottom
+DRY: check and correct
