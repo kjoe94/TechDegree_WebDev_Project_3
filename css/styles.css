@@ -251,7 +251,10 @@ button {
 }
 
 button,
-.textbox {
+.textbox,
+.wrapper input,
+.wrapper label,
+select {
     width: 100%;
 }
 
@@ -259,9 +262,13 @@ button,
     font-weight: 600;
 }
 
+.newsletter-sect label,
+.wrapper label {
+    display: inline-block;
+    
+}
 
 .newsletter-sect label {
-    display: inline-block;
     margin: 0.5rem 0;
     
 }
