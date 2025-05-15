@@ -291,11 +291,49 @@ select {
   Media Queries
 ==================================== */
 
-@media screen and (min-width: ???px) {
+@media screen and (min-width: 768px) {
 
+    h1 {
+        font-size: 0.9rem;
+    }
+
+    h2 {
+        margin-top: 3rem;
+    }
+
+    header {
+        height: 3rem;
+    }
+
+    main,
+    aside {
+    width: 55%;
+    }
+
+    .two-bar {
+        height: 4.5px;
+        margin-bottom: 2.2px;
+    }
+
+    legend {
+        font-size: 1rem;
+    }
+
+    aside p {
+        font-size: 0.7rem;
+    }
+
+    form {
+        margin-top: 2.5rem;
+    }
+    
+    #state,
+    footer p,
+    .wrapper label,
+    .newsletter-sect {
+        font-size: 0.8rem;
 }
 
-@media screen and (min-width: ???px) {
 
 }
 

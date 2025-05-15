@@ -1,34 +1,14 @@
 *** check-off "instructions" ***
 \\\\\\\\\\//////////
+****MAY HAVE TO CHANGE USING FLEX IN THE WAY DISCRIBED HERE. PLAY WITH IT WHEN STYLING THE DESKTOP MOCKUP****
 
 When setting up these elements have a close look at the mockups and see how they behave in the different screen sizes. For this project you'll want to utilize Flexbox to change the positioning of the label / input elements. To make this easier we suggest to wrap each pair of label / input into a separate div element. This way you can change the flex-direction to move the elements side by side or on top of each other depending on the viewport size.
 
-Labels
-Ensure proper labeling of form elements to improve accessibility and usability.
-
-Make sure that the text inside each label matches the names in the mockups.
-Pair each <label> element with its corresponding form field via the for attribute. The label’s for attribute should match the associated form field's id attribute.
-Note: Make sure that the textarea element has a functioning label too.
-Required Placeholder Text
-Use the input field's placeholder attribute to add the text "Required" to:
-
-***
-
-The Full Name input field
-The Email address input field
-Create the Base Styles
-For this project, we will be using the mobile-first approach. This means that the base styles will create the project how it should look on smaller-sized screens.
-
-Look at the provided mockup for mobile devices and create the HTML structure for the different elements in your index.html file (header, titles, content, footer etc).
-With CSS, style your layout to match the provided mobile mockup. Make sure your mobile design matches the mockup at 320px screen size.
-Note: It can be tricky to add custom styles to radio buttons and checkboxes. These elements won't have to be styled to match the mockups but kept at the browser default.
-Pro Tip
-While your project will be graded to match the mockups on the 320px and 768px breakpoints you'll want your project to look good on all screen sizes in between those widths as well. Best way to accomplish this would be to avoid the use of fixed px values and use percentage based values instead for properties like width and max-width.
-
-Apply Styles for Tablet Sized Screens
-Once you've created the base styles for your project it's time to move on to the styles for medium-sized screens.
+**************====================**************
 
 Create a media query that applies styles when the screen has a minimum width of 768px.
+
+
 In this media query add styles to match the tablet-mockup.
 Focus States
 Add focus states to the input, select, and textarea elements for when a user clicks or tabs into them.
