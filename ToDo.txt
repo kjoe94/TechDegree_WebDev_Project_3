@@ -1,10 +1,9 @@
 *** check-off "instructions" ***
 \\\\\\\\\\//////////
-****MAY HAVE TO CHANGE USING FLEX IN THE WAY DISCRIBED HERE. PLAY WITH IT WHEN STYLING THE DESKTOP MOCKUP****
 
-When setting up these elements have a close look at the mockups and see how they behave in the different screen sizes. For this project you'll want to utilize Flexbox to change the positioning of the label / input elements. To make this easier we suggest to wrap each pair of label / input into a separate div element. This way you can change the flex-direction to move the elements side by side or on top of each other depending on the viewport size.
-
-**************====================**************
+****NEXT***
+- play with "flex-grow" and "flex-basis" to pair <label> & <input>/<select> pairs in contact section.
+        - the <input>/<select> boxes are 2.5 times the <label>
 
 Create a media query that applies styles when the screen has a minimum width of 768px.
 
