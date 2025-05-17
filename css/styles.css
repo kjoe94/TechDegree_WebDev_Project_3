@@ -110,7 +110,6 @@ legend {
 }
 
 .wrapper {
-    flex-wrap: wrap;
     flex-direction: column;
 }
 
@@ -320,7 +319,7 @@ select {
     }
 
     aside p {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
 
     form {
@@ -331,8 +330,30 @@ select {
     footer p,
     .wrapper label,
     .newsletter-sect {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
 }
+    
+    .wrapper {
+        flex-direction: row;
+    }
+
+    .one {
+        flex: 1;
+        align-self: center;
+    }
+
+    .two {
+        flex: 2.5;
+    }
+
+    select {
+        padding: 1px 16px;
+    }
+
+    input[type="text"], 
+    select {
+        min-height: 2.5rem;
+    }
 
 
 }
