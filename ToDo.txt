@@ -2,8 +2,7 @@
 \\\\\\\\\\//////////
 
 ****NEXT***
-- play with "flex-grow" and "flex-basis" to pair <label> & <input>/<select> pairs in contact section.
-        - the <input>/<select> boxes are 2.5 times the <label>
+- MATCH FONT/ELEMENT'S SIZE TO MOCKUP (MAKE SMALLER)
 
 Create a media query that applies styles when the screen has a minimum width of 768px.
 
