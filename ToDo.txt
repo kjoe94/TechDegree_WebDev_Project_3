@@ -2,49 +2,8 @@
 \\\\\\\\\\//////////
 
 ****NEXT***
-- MATCH FONT/ELEMENT'S SIZE TO MOCKUP (MAKE SMALLER)
+- MATCH FONT/ELEMENT'S SIZE TO MOCKUP (MAKE SMALLER) ????
 
-Create a media query that applies styles when the screen has a minimum width of 768px.
-
-
-In this media query add styles to match the tablet-mockup.
-Focus States
-Add focus states to the input, select, and textarea elements for when a user clicks or tabs into them.
-
-Match the Mockups
-Double-check that your project matches the mockups at all screen sizes:
-
-The design does not need to be exact, but the general spacing and arrangement of the elements should match the design of the mockups at the 320px and 768px viewport widths.
-On small screen sizes:
-Label text should be above the form field.
-The Zip Code input is roughly half of the width of other inputs.
-On larger screen sizes:
-Label text should be to the left side of the form field.
-The Zip Code input is roughly a quarter of the width of other inputs.
-NOTE
-For this project, we will be checking the design in Google Chrome. Different browsers display forms slightly differently so please make sure it looks correct in Google Chrome before submitting.
-
-Validate Your Code
-Make sure to check your code is valid by running it through an HTML and CSS validator to spot any errors that might be in your code.
-
-You can ignore any warnings, we just need you to check any errors that might be there.
-
-Finishing the Project
-The final stage of the project is perhaps the most important. This is where your developer skills really shine as you carefully double-check that you've accomplished all requirements and that your project is ready for submission.
-
-Code comments - It’s a best practice for development code to be well commented. Replace provided comments with your own to briefly describe your code.
-Code readability - Readability is second only to functionality. Double-check your code to ensure the spacing and indentation are consistent.
-Cross-browser consistency - To pass, your project only needs to work in Chrome, but it’s common for developers to test their projects in multiple browsers to know how they will perform out in the wild.
-Quality Assurance Testing - This is the keystone step in the development process.
-Open and run your app.
-Open the Chrome DevTools console.
-Pretend to be a user and test all aspects of functionality and every possible state of the app, while monitoring the console for bugs and resolving any that arise.
-
-=========
-*** check-off "meets expectations" ***
--
-=========
-*** check-off "meets expectations" ***
 -
 *** check-off "exceeds" ***
 -
@@ -94,3 +53,5 @@ increase margin/line-height of <label> elements
 style "Newsletter" section
 - space out with margin-top/bottom
 DRY: check and correct
+
+*** check-off "meets expectations" ***
