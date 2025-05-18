@@ -355,6 +355,14 @@ select {
         min-height: 2.5rem;
     }
 
+     #zip {
+        flex: 0.35;
+    }
+
+    .zcode {
+        flex: 0 1 111.24px;
+    }
+
 
 }
 
