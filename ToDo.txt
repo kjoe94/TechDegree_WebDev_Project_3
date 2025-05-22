@@ -6,25 +6,13 @@
 
 -
 *** check-off "exceeds" ***
--Additional Placeholder Text
-Add additional placeholder text for all text input fields and the textarea element.
 
-The Required Attribute
-Use the required attribute to add HTML5 validation to make sure that required fields are filled out and the input is formatted correctly.
 
-Additional Styling
-Add at least the following additional styling enhancements to the form, feel free to add extra styling but leave the basic layout the same as the mockup:
 
-Change the background color for at least ONE of the main sections of the site.
 CSS Transitions
 Use CSS transitions for all of the focus states:
 
 For example, make a background color fade into view when the user clicks on a text field, and fade out when the user clicks or tabs out of the field.
-NOTE: Getting an "Exceed Expectations" grade.
-
-See the rubric in the "How You'll Be Graded" tab above for details on what you need to receive an "Exceed Expectations" grade.
-Passing grades are final. If you try for the "Exceeds Expectations" grade, but miss an item and receive a “Meets Expectations” grade, you won’t get a second chance. Exceptions can be made for items that have been misgraded in review.
-Always mention in the comments of your submission or any resubmission, what grade you are going for. Some students want their project to be rejected if they do not meet all Exceeds Expectations Requirements, others will try for all the "exceeds" requirement but do not mind if they pass with a Meets Expectations grade. Leaving a comment in your submission will help the reviewer understand which grade you are specifically going for
 
 
 ==========================================

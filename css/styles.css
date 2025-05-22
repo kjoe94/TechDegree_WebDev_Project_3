@@ -5,6 +5,10 @@
 /* ================================= 
   Base Element Styles
 ==================================== */
+body {
+    background-color: rgba(32, 178, 171, 0.128);
+
+}
 
 body,
 button,
@@ -103,19 +107,18 @@ fieldset > label {
 
 /* ---- Layout Containers ---- */
 
-.contact,
-fieldset,
-legend {
-    padding: 0;
-}
 
 .wrapper {
     flex-direction: column;
 }
 
-
-
 /* ---- Page Elements ---- */
+
+.contact,
+fieldset,
+legend {
+    padding: 0;
+}
 
 .two-bar {
     height: 5px;
@@ -168,6 +171,7 @@ footer p {
 }
 
 footer p,
+textarea::placeholder,
 input::placeholder {
     font-style: italic;
 }
@@ -190,16 +194,24 @@ legend {
     margin-bottom: 0.5rem;
 }
 
-
-
-input::placeholder {
-    text-align: right;
-    margin-right: 1rem; 
+textarea::placeholder {
+    padding-left: 0.5rem; 
     opacity: 0.5; 
     font-size: 0.8rem;
 
 }
 
+input::placeholder,
+textarea::placeholder {
+    opacity: 0.5; 
+    font-size: 0.8rem;
+
+}
+
+input::placeholder {
+    text-align: right;
+    margin-right: 1rem; 
+}
 
 input[placeholder="Choose State"]::placeholder {
     text-align: justify;
@@ -218,13 +230,29 @@ textarea:focus,
 button:focus,
 select:focus {
         outline: solid rgb(35, 107, 131);
+
+        
 }
+
+select:focus,
+button:focus,
+textarea:focus,
+input[type="text"]:focus {
+        background-color: green;
+        color: gold;
+}
+
+
+
 
 select,
 input[type="text"],
 textarea {
     background-color: rgb(234, 233, 233);
+    transition: background-color 2s ease-out;
 }
+
+
 
 select {
     color: #b9b9b9;
